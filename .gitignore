@@ -1,0 +1,5 @@
+.idea
+MAVEN.iml
+src/main/resources/
+src/test/
+target/
