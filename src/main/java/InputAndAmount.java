@@ -8,11 +8,8 @@ public class InputAndAmount {
         int a = in.nextInt();
         int b = in.nextInt();
         in.close();
-//
         int sum = a + b;
         System.out.println("Result a + b = " + sum);
-
-
         System.out.println("End");
     }
 
