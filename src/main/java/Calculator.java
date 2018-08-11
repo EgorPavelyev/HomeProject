@@ -25,6 +25,7 @@ import java.awt.event.ActionListener;
             pack();
         }
     }
+
     class CalculatorPanel extends JPanel {
         public CalculatorPanel() {
             setLayout(new BorderLayout());
