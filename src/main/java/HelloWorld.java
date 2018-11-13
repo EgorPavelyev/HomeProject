@@ -8,6 +8,7 @@ public class HelloWorld {
         for (byte b : digest) {
             System.out.println("b = " + b);
             System.out.printf("%02x", b);
+            //new
         }
     }
 }
