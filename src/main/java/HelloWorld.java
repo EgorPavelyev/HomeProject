@@ -6,6 +6,7 @@ public class HelloWorld {
         MessageDigest md = MessageDigest.getInstance("MD5");
         byte[] digest = md.digest("abracadabra".getBytes("UTF-8"));
         for (byte b : digest) {
+            System.out.println("b = " + b);
             System.out.printf("%02x", b);
         }
     }
